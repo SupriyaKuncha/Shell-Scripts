@@ -16,6 +16,7 @@ then
 else 
 	echo "Incorrect password, enter again"
 	#continue
+#beginning of if statement
 fi
 #alert to say Account locked
 #echo $i
@@ -23,5 +24,5 @@ if [ $i -ge 3 ]
 then
 	echo " Login attempts failed, Account locked! "
 fi
-
+#end of if statement
 done
