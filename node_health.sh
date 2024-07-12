@@ -18,5 +18,5 @@ nproc
 #Print memory
 free -g
 
-#print process I
+#print process ID
 ps -ef | grep "amazon" | awk -F" " '{ print$2}'
